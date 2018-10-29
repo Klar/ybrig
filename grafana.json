@@ -27,7 +27,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "test",
+      "datasource": "ybrig",
       "decimals": 2,
       "format": "none",
       "gauge": {
@@ -81,7 +81,7 @@
       "targets": [
         {
           "groupBy": [],
-          "measurement": "test",
+          "measurement": "ybrig",
           "orderByTime": "ASC",
           "policy": "default",
           "refId": "A",
@@ -125,7 +125,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "test",
+      "datasource": "ybrig",
       "decimals": 2,
       "format": "none",
       "gauge": {
@@ -179,7 +179,7 @@
       "targets": [
         {
           "groupBy": [],
-          "measurement": "test",
+          "measurement": "ybrig",
           "orderByTime": "ASC",
           "policy": "default",
           "refId": "A",
@@ -223,7 +223,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "test",
+      "datasource": "ybrig",
       "decimals": 2,
       "format": "none",
       "gauge": {
@@ -277,7 +277,7 @@
       "targets": [
         {
           "groupBy": [],
-          "measurement": "test",
+          "measurement": "ybrig",
           "orderByTime": "ASC",
           "policy": "default",
           "refId": "A",
@@ -321,7 +321,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "test",
+      "datasource": "ybrig",
       "decimals": 2,
       "format": "none",
       "gauge": {
@@ -374,8 +374,9 @@
       "tableColumn": "",
       "targets": [
         {
+          "$$hashKey": "object:546",
           "groupBy": [],
-          "measurement": "test",
+          "measurement": "ybrig",
           "orderByTime": "ASC",
           "policy": "default",
           "refId": "A",
@@ -412,129 +413,16 @@
     },
     {
       "aliasColors": {},
-      "bars": true,
-      "dashLength": 10,
-      "dashes": false,
-      "datasource": "test",
-      "fill": 10,
-      "gridPos": {
-        "h": 12,
-        "w": 24,
-        "x": 0,
-        "y": 4
-      },
-      "id": 2,
-      "legend": {
-        "alignAsTable": true,
-        "avg": false,
-        "current": false,
-        "hideEmpty": false,
-        "hideZero": false,
-        "max": true,
-        "min": false,
-        "rightSide": true,
-        "show": true,
-        "total": false,
-        "values": true
-      },
-      "lines": false,
-      "linewidth": 0,
-      "links": [],
-      "nullPointMode": "connected",
-      "percentage": false,
-      "pointradius": 1,
-      "points": false,
-      "renderer": "flot",
-      "seriesOverrides": [],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
-      "targets": [
-        {
-          "$$hashKey": "object:924",
-          "groupBy": [
-            {
-              "params": [
-                "Days"
-              ],
-              "type": "tag"
-            }
-          ],
-          "measurement": "test",
-          "orderByTime": "ASC",
-          "policy": "default",
-          "refId": "A",
-          "resultFormat": "time_series",
-          "select": [
-            [
-              {
-                "params": [
-                  "days"
-                ],
-                "type": "field"
-              },
-              {
-                "params": [
-                  "5"
-                ],
-                "type": "moving_average"
-              }
-            ]
-          ],
-          "tags": []
-        }
-      ],
-      "thresholds": [],
-      "timeFrom": null,
-      "timeShift": null,
-      "title": "Moving Average (5)",
-      "tooltip": {
-        "shared": false,
-        "sort": 0,
-        "value_type": "individual"
-      },
-      "type": "graph",
-      "xaxis": {
-        "buckets": null,
-        "mode": "time",
-        "name": null,
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "$$hashKey": "object:1196",
-          "decimals": null,
-          "format": "short",
-          "label": "Days",
-          "logBase": 1,
-          "max": null,
-          "min": "0",
-          "show": true
-        },
-        {
-          "$$hashKey": "object:1197",
-          "format": "short",
-          "label": null,
-          "logBase": 1,
-          "max": null,
-          "min": null,
-          "show": true
-        }
-      ]
-    },
-    {
-      "aliasColors": {},
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "test",
+      "datasource": "ybrig",
       "fill": 10,
       "gridPos": {
         "h": 27,
         "w": 24,
         "x": 0,
-        "y": 16
+        "y": 4
       },
       "id": 10,
       "legend": {
@@ -564,7 +452,6 @@
       "steppedLine": true,
       "targets": [
         {
-          "$$hashKey": "object:842",
           "groupBy": [
             {
               "params": [
@@ -573,7 +460,7 @@
               "type": "tag"
             }
           ],
-          "measurement": "test",
+          "measurement": "ybrig",
           "orderByTime": "ASC",
           "policy": "default",
           "refId": "A",
@@ -610,7 +497,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:1109",
           "decimals": null,
           "format": "short",
           "label": "Days",
@@ -620,7 +506,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:1110",
           "format": "short",
           "label": "",
           "logBase": 1,
@@ -639,8 +524,8 @@
     "list": []
   },
   "time": {
-    "from": "1968-05-21T09:10:58.014Z",
-    "to": "2017-05-07T09:11:42.544Z"
+    "from": "1968-03-28T07:06:35.853Z",
+    "to": "2017-02-13T16:36:44.906Z"
   },
   "timepicker": {
     "refresh_intervals": [
@@ -670,5 +555,5 @@
   "timezone": "",
   "title": "Ybrig",
   "uid": "RxgU_91iz",
-  "version": 29
+  "version": 36
 }
