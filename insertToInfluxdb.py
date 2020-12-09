@@ -90,7 +90,8 @@ ybrig_dict = {"1968/1969": ["24.12.1968", "07.04.1969", 105],
               "2018/2019": ["15.12.2018", "22.04.2019", 129],
               }
 
-//            "2019/2020": ["07.12.2019", "", ],
+//            "2019/2020": ["07.12.2019", "14.03.2020", ],  //  Corona verbot fuer Skiegebiete - muessen schliessen
+//            "2020/2021": ["12.12.2020", "", ],    // nur fuer Saisonkaren Besitzer wegen Crona
 
 for data in ybrig_dict:
     year = data
